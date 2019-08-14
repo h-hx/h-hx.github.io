@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[deeplearning.ai笔记（一）]]></title>
     <url>%2F2019%2F08%2F13%2Fdeeplearning-ai%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%80%EF%BC%89%2F</url>
-    <content type="text"><![CDATA[神经网络和深度学习—神经网络基础（Basics of Neural Network programming）二分类（Binary Classification）符号定义 ：$x$：表示一个$n_x$维数据，为输入数据，维度为$(n_x,1)$；$y$：表示输出结果，取值为$(0,1)$；$(x^{(i)},y^{(i)})$：表示第$i$组数据，可能是训练数据，也可能是测试数据，此处默认为训练数据；$X=[x^{(1)},x^{(2)},…,x^{(m)}]$：表示所有的训练数据集的输入值，放在一个 $n_x×m$的矩阵中，其中$m$表示样本数目;$Y=[y^{(1)},y^{(2)},…,y^{(m)}]$：对应表示所有训练数据集的输出值，维度为$1×m$。]]></content>
+    <content type="text"><![CDATA[神经网络和深度学习—神经网络基础（Basics of Neural Network programming）二分类（Binary Classification）符号定义 ：$x$：表示一个$n_x$维数据，为输入数据，维度为$(n_x,1)$；$y$：表示输出结果，取值为$(0,1)$；$(x^{(i)},y^{(i)})$：表示第$i$组数据，可能是训练数据，也可能是测试数据，此处默认为训练数据；$X=[x^{(1)},x^{(2)},…,x^{(m)}]$：表示所有的训练数据集的输入值，放在一个 $n_x×m$的矩阵中，其中$m$表示样本数目;$Y=[y^{(1)},y^{(2)},…,y^{(m)}]$：对应表示所有训练数据集的输出值，维度为$1×m$。逻辑回归（Logistic Regression）逻辑回归中：$\hat{y}={w}^{T}x+b$引入$sigmoid$函数：$\begin{align}\sigma \left( z \right)&amp;=\frac{1}{1+{e^{-z}}} \\ \sigma’(z)&amp;=\frac{1}{(1+{e^{-z}})^2}\times e^{-z}\\ &amp;=\sigma(z)\frac{e^{-z}}{1+{e^{-z}}}\\ &amp;=\sigma(z)(1-\sigma(z))\end{align}$定义$\hat{y}=\sigma \left( {\theta ^{T}}x \right)$的sigmoid函数。有一组参数向量${\theta _{0}},{\theta _{1}},{\theta_{2}},…,{\theta _{n_{x}}}$，此时${\theta_{0}}$就充当了$b$，而剩下的${\theta_{1}}$ 直到${\theta_{n_{x}}}$充当了$w$$\theta.shape=(w.shape+1,1)$]]></content>
       <tags>
         <tag>深度学习</tag>
       </tags>
