@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[数据挖掘-连续序列模式挖掘]]></title>
     <url>%2F2021%2F08%2F31%2F%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98-%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97%E6%A8%A1%E5%BC%8F%E6%8C%96%E6%8E%98%2F</url>
-    <content type="text"><![CDATA[Contiguous Sequential Pattern Mining在序列模式挖掘中，有几种方法被用于压缩序列模式，从而减少序列模式输出。其中一种输出方法是只输出闭合序列模式，另一种则是只输出极大序列模式。Closed Pattern：给定所有序列模式集合$AS$，若有序列模式$S_a$满足$S_a$ $\in$ $AS$ $\land$ $\not\exist$ $S_b$ $\in$ $AS$， $S_a$ $\subset$ $S_b$ $\land$ $sup(S_a)$ $=$ $sup(S_b)$， 则$S_a$是一条闭合序列模式。Max Pattern：给定所有序列模式集合$AS$，若有序列模式$S_a$满足$S_a$ $\in$ $AS$ $\land$ $\not\exist$ $S_b$ $\in$ $AS$， $S_a$ $\subset$ $S_b$， 则$S_a$是一条极大序列模式。CSP是无损的，MSP则是有损的。CCSPNCCSPAN引入了一种新的片段增长方案来生成潜在的模式。通过使用n-gram模型将原始序列分割成一组片段，然后在增长序列时，保证每个片段的项严格保持初始邻接和顺序。参考文献[1] Zhang, Jingsong, et al. “CCSpan: Mining Closed Contiguous Sequential Patterns.” Knowledge Based Systems, vol. 89, 2015, pp. 1–13.]]></content>
+    <content type="text"><![CDATA[Contiguous Sequential Pattern Mining在序列模式挖掘中，有几种方法被用于压缩序列模式，从而减少序列模式输出。其中一种输出方法是只输出闭合序列模式，另一种则是只输出极大序列模式。Closed Pattern：给定所有序列模式集合$AS$，若有序列模式$S_a$满足$S_a$ $\in$ $AS$ $\land$ $\not$ $\exist$ $S_b$ $\in$ $AS$， $S_a$ $\subset$ $S_b$ $\land$ $sup(S_a)$ $=$ $sup(S_b)$， 则$S_a$是一条闭合序列模式。Max Pattern：给定所有序列模式集合$AS$，若有序列模式$S_a$满足$S_a$ $\in$ $AS$ $\land$ $\not$ $\exist$ $S_b$ $\in$ $AS$， $S_a$ $\subset$ $S_b$， 则$S_a$是一条极大序列模式。CSP是无损的，MSP则是有损的。CCSPNCCSPAN引入了一种新的片段增长方案来生成潜在的模式。通过使用n-gram模型将原始序列分割成一组片段，然后在增长序列时，保证每个片段的项严格保持初始邻接和顺序。参考文献[1] Zhang, Jingsong, et al. “CCSpan: Mining Closed Contiguous Sequential Patterns.” Knowledge Based Systems, vol. 89, 2015, pp. 1–13.]]></content>
       <tags>
         <tag>数据挖掘</tag>
       </tags>
